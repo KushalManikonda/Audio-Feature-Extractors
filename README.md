@@ -65,6 +65,7 @@ The extracted features are intended for frame-level speech disfluency classifica
 |---|---|---:|
 | Exp1 – Fluent vs Disfluent | BiLSTM | 0.9006 |
 | Exp2 – Fluent vs Filled Pause (I) | BiLSTM | 0.9651 |
+| Exp2 – Fluent vs Prolongation (PR) | BiLSTM | 1.0000 |
 | Exp2 – Fluent vs Phrase Repetition (PhR) | BiLSTM | 0.9903 |
 | Exp2 – Fluent vs Word Repetition (WR) | BiLSTM | 0.9496 |
 | Exp2 – Fluent vs Part-word Repetition (PWR) | BiLSTM | 0.9931 |
