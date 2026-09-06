@@ -86,3 +86,14 @@ The extracted features are intended for frame-level speech disfluency classifica
 ## whisper embeddings
 
 ## conformer embeddings
+
+| Experiment | Best Model | Weighted F1 |
+|---|---|---:|
+| Exp1 – Fluent vs Disfluent | Random Forest | 0.9180 |
+| Exp2 – Fluent vs Filled Pause (I) | Random Forest | 0.9769 |
+| Exp2 – Fluent vs Prolongation (PR) | Random Forest | 0.9667 |
+| Exp2 – Fluent vs Phrase Repetition (PhR) | Random Forest | 0.9741 |
+| Exp2 – Fluent vs Word Repetition (WR) | Random Forest | 0.9807 |
+| Exp2 – Fluent vs Part-word Repetition (PWR) | Random Forest | 0.9905 |
+| Exp2 – Fluent vs Pause (P) | Random Forest | 0.9910 |
+| Exp3 – 6-class Disfluency | Random Forest | 0.9174 |
