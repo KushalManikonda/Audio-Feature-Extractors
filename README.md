@@ -40,14 +40,37 @@ The extracted features are intended for frame-level speech disfluency classifica
 
 # Best Model per Experiment
 
+## mfcc feature extractor-classifier
+
+## mfcc+sdc feature extractor-classifier
+
+| Experiment | Best Model | Weighted F1 |
+|---|---|---:|
+| Exp1 – Fluent vs Disfluent | BiLSTM | 0.9020 |
+| Exp2 – Fluent vs Filled Pause (I) | BiLSTM | 0.9660 |
+| Exp2 – Fluent vs Prolongation (PR) | BiLSTM | 1.0000 |
+| Exp2 – Fluent vs Phrase Repetition (PhR) | BiLSTM | 0.9893 |
+| Exp2 – Fluent vs Word Repetition (WR) | BiLSTM | 0.9496 |
+| Exp2 – Fluent vs Part-word Repetition (PWR) | BiLSTM | 0.9934 |
+| Exp2 – Fluent vs Pause (P) | BiLSTM | 0.9988 |
+| Exp3 – 6-class Disfluency | BiLSTM | 0.3389 |
+
+## sfcc+sdc feature extractor-classifier
+
+## prosodic + acoustic
+
 ## wav2vec2 feature extractor-classifier
 
 | Experiment | Best Model | Weighted F1 |
 |---|---|---:|
-| Exp1_FluDis | BiLSTM | 0.9006 |
-| Exp2_Flu_I | BiLSTM | 0.9651 |
-| Exp2_Flu_PhR | BiLSTM | 0.9903 |
-| Exp2_Flu_WR | BiLSTM | 0.9496 |
-| Exp2_Flu_PWR | BiLSTM | 0.9931 |
-| Exp2_Flu_P | BiLSTM | 0.9988 |
-| Exp3_6class | BiLSTM | 0.4956 |
+| Exp1 – Fluent vs Disfluent | BiLSTM | 0.9006 |
+| Exp2 – Fluent vs Filled Pause (I) | BiLSTM | 0.9651 |
+| Exp2 – Fluent vs Phrase Repetition (PhR) | BiLSTM | 0.9903 |
+| Exp2 – Fluent vs Word Repetition (WR) | BiLSTM | 0.9496 |
+| Exp2 – Fluent vs Part-word Repetition (PWR) | BiLSTM | 0.9931 |
+| Exp2 – Fluent vs Pause (P) | BiLSTM | 0.9988 |
+| Exp3 – 6-class Disfluency | BiLSTM | 0.4956 |
+
+## whisper embeddings
+
+## conformer embeddings
