@@ -37,3 +37,17 @@ The extracted features are intended for frame-level speech disfluency classifica
 * Word Repetition (WR)
 * Part-word Repetition (PWR)
 * Pause (P)
+
+# Best Model per Experiment
+
+## wav2vec2 feature extractor-classifier
+
+| Experiment | Best Model | Weighted F1 |
+|---|---|---:|
+| Exp1_FluDis | BiLSTM | 0.9006 |
+| Exp2_Flu_I | BiLSTM | 0.9651 |
+| Exp2_Flu_PhR | BiLSTM | 0.9903 |
+| Exp2_Flu_WR | BiLSTM | 0.9496 |
+| Exp2_Flu_PWR | BiLSTM | 0.9931 |
+| Exp2_Flu_P | BiLSTM | 0.9988 |
+| Exp3_6class | BiLSTM | 0.4956 |
