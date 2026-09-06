@@ -57,7 +57,18 @@ The extracted features are intended for frame-level speech disfluency classifica
 
 ## sfcc+sdc feature extractor-classifier
 
-## prosodic + acoustic
+## prosodic+acoustic feature extractor-classifier
+
+| Experiment | Best Model | Weighted F1 |
+|---|---|---:|
+| Exp1 – Fluent vs Disfluent | Random Forest | 0.7845 |
+| Exp2 – Fluent vs Filled Pause (I) | Random Forest | 0.9508 |
+| Exp2 – Fluent vs Prolongation (PR) | Random Forest | 0.9667 |
+| Exp2 – Fluent vs Phrase Repetition (PhR) | Random Forest | 0.9197 |
+| Exp2 – Fluent vs Word Repetition (WR) | Random Forest | 0.9623 |
+| Exp2 – Fluent vs Part-word Repetition (PWR) | BiLSTM | 0.9459 |
+| Exp2 – Fluent vs Pause (P) | BiLSTM | 0.9967 |
+| Exp3 – 6-class Disfluency | Random Forest | 0.2258 |
 
 ## wav2vec2 feature extractor-classifier
 
